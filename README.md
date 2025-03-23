@@ -1,2 +1,30 @@
-# Sleeptracker
-Simple version of sleeptracker to record sleep time
+# 睡眠时间追踪器
+
+![Python版本](https://img.shields.io/badge/Python-3.7%2B-blue)
+![开源协议](https://img.shields.io/badge/License-MIT-green)
+
+一个简单的命令行程序，用于记录和分析每日就寝时间，生成可视化统计图表。
+
+## ✨ 功能特性
+
+- 📅 **日期自动记录**
+  - 自动记录当前日期和星期
+  - 每天仅保留最后一次记录
+- 📊 **数据可视化**
+  - 生成时间趋势折线图
+  - 带时间标签的数据点
+  - 专业配色方案（蓝线红点）
+- 📂 **数据管理**
+  - CSV文件本地存储
+  - 历史记录查看
+  - 按日期删除记录
+- 🖥️ **交互体验**
+  - 中文界面
+  - 防错输入验证
+  - 随时返回主菜单
+
+## ⚙️ 安装指南
+
+### 依赖安装
+```bash
+pip install matplotlib
